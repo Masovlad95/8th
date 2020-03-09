@@ -1,0 +1,142 @@
+@media (min-width: 992px) and (max-width: 1229px) {
+  .desgn-images {
+    display: none;
+  }
+  .advantages-descr {
+    max-width: 570px;
+    width: 100%;
+    margin-left: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .desgn-images {
+    display: none;
+  }
+  .advantages-text {
+    margin: 50px auto;
+    max-width: 570px;
+    text-align: left;
+    width: 100%;
+  }
+  .advantages-inner_row {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .advantages-descr {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .advantages-title--bottom {
+    text-align: left;
+    left: 82px;
+    margin-top: 20px;
+  }
+  .design-row__item-text {
+    padding: 0 0 0 10px;
+  }
+}
+@media (min-width: 601px) and (max-width: 767px) {
+  .desgn-images {
+    display: none;
+  }
+  .advantages-text {
+    margin: 50px auto;
+    max-width: 570px;
+    text-align: left;
+    width: 100%;
+  }
+  .advantages-inner_row {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .advantages-descr {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .advantages-title--bottom {
+    text-align: left;
+    left: 0px;
+    margin-top: 20px;
+  }
+  .design-row__item-text {
+    padding: 0 0 0 10px;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .desgn-images {
+    display: none;
+  }
+  .advantages-text {
+    margin: 50px auto;
+    max-width: 570px;
+    text-align: left;
+    width: 100%;
+  }
+  .advantages-inner_row {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .advantages-descr {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .advantages-title--bottom {
+    text-align: left;
+    left: 0px;
+    margin-top: 20px;
+  }
+  .advantages__img {
+    display: none;
+  }
+  .design-row,
+  .statistics-items {
+    flex-wrap: wrap;
+  }
+  .header-content__title {
+    font-size: 62px;
+    line-height: 68px;
+    margin-bottom: 0px;
+  }
+  .header-content__text {
+    margin-bottom: 5px;
+  }
+  .menu-list a {
+    display: block;
+    font-size: 28px;
+    line-height: 46px;
+    font-weight: 700;
+    padding: 30px 25px 2px 0;
+    border-bottom: 3px solid #b70021;
+    min-width: 200px;
+    transition: all 0.5s;
+  }
+  .menu-list a:hover {
+    border-color: #fff;
+    color: #b70021;
+    transform: scale(1.01);
+    margin-left: 5px;
+  }
+  .button {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    padding: 15px 62px;
+    background: rgba(255, 255, 255, 0.15);
+    transition: all 0.5s;
+  }
+
+  .button:hover {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    padding: 15px 62px;
+    background: #770302;
+  }
+  .logo img {
+    width: 200px;
+  }
+  .design-row__item-text {
+    padding: 0 0 0 10px;
+  }
+}
